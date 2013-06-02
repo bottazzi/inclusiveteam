@@ -188,6 +188,22 @@ class Miggy {
 
             $zindex = 1;
 
+            if(empty($json->results)) {
+
+                    echo '<div class="media">';
+                    echo '<div class="pull-left">';
+                    echo '</div>';
+
+                    echo '<div class="media-body">';
+                    echo '<h5 class="media-heading">Nothing found.</h5>';
+                    echo '<p></p>';
+
+                    echo '</div>';
+                    echo '</div>';
+
+                return;
+            };
+
             foreach ( $json->results as $place) {
 
                     echo '<div class="media">';
