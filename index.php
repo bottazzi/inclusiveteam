@@ -76,12 +76,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#"><img src="img/miggy_markOnly.png" class="mark"></a>
+          <a class="brand" href="/"><img src="img/miggy_markOnly.png" class="mark"></a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-              <li class="active"><a href="#">Learn More</a></li>
-              <li><a href="#about">How To</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="http://govhack.org" target="_blank">#GovHack 2013</a></li>
+
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -95,7 +94,7 @@
       <img src="img/miggy_v01.png" class="logo">
 
       <div class="intro">
-      	<h1>Discover the <span>positive</span> impact made by<span> immigrants</span> in Australia by exploring their <span>culinary</span> contribution to the community. <span>Enjoy!</span></h1>
+      	<h1>Discover the <span>positive</span> impact made by<span> immigrants</span> in Australia by exploring their <span>culinary</span> contribution. <span>Enjoy!</span></h1>
       </div>
 
     </div> <!-- /container -->
@@ -106,7 +105,7 @@
 
         	<div class="span12"> <!--------- START DATE PICKER ------------>
             	<h3>When?</h3>
-                	<p>Pick a decade, I dare you!</p>
+                	<p>Pick a year, I dare you!</p>
 
                     <form method="post" name="installer" onsubmit="showHide(); return false;">
                     	<select onchange="window.location =  '?year=' +  jQuery('#year option:selected').val() + '#show';" id="year">
@@ -148,10 +147,7 @@
         	<div class="span6"><!--------- START MAP BLOCK ------------>
                 <a name="map"></a>
                 <h3>Where are they going to?</h3>
-                    <p>Which places are bennefiting from these cultures</p>
-
-
-
+                    <p>Which places are benefiting from these cultures</p>
 
                     <?php
                     echo$miggy->showLabelMap( $_REQUEST['year'] );
