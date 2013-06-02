@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url(../img/wavegrid.png) repeat;
+	text-align: center;
+}
+
+.introBackground {
+	background: url(../img/background_WaterMark.png) top no-repeat;
+}
+
+.countryList ol:after {
+	content: ' ';
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: #ccc;
+}
+
+.countryList {
+	text-align: center;
+	border-top: #ccc solid 1px;
+	padding-top: 20px;
+}
+
+#hidden_div {
+	-webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.intro {
+	margin-bottom: 20px;
+	border-bottom: #ccc solid 1px;
+	border-top: #ccc solid 1px;
+	padding: 40px;
+}
+
+.intro h1 {font-weight:100;
+}
+
+.intro h1 span { font-weight: normal;
+}
+
+.mark {
+	width: 36%;
+}
+
+.eateryList {
+	background: url(../img/restaurant_icon32_px.png) no-repeat top left;
+	padding: 20px;
+}
+
+.eateryList ul {
+	list-style-image: url(../img/restaurant_icon32_px.png) ;
+}
+
+.eateryList ul li {
+	border-bottom: #ccc solid 1px;
+	padding: 20px;
+}
+
+.restaurantList {
+	text-align: left;
+	height: 442px;
+	overflow: scroll;
+        margin-top: -10px;
+}
+
+.media {
+	border-bottom: #ccc solid 1px;
+        padding-left: 75px;
+}
+
+.media:hover {
+	background: #e5e5e5;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 1s;
+	-webkit-transition: all ease 1s;
+}
+
+#submit {
+	color:  #fff;
+	background: #00AEEF;
+	width: 80px;
+	border-left: 2px #A0D9EA solid;
+	border-top: 2px #A0D9EA solid;
+	border-right: 2px #066A89 solid;
+	border-bottom: 2px #066A89 solid;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.footer {
+	margin-top: 40px;
+	background: #030303;
+	padding: 20px 0 20px;
+}
+
+.footer p {
+	color: #e5e5e5;
+	text-align: left;
+}
+
+.textBlock {
+	border-top: solid #ccc 1px;
+}
+
+.textBlock h2{
+	text-transform: uppercase;
+}
